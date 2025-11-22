@@ -1,0 +1,183 @@
+{
+  "cluster_classification": {
+    "model": "RandomForestClassifier",
+    "train_accuracy": 0.9976386287761583,
+    "test_accuracy": 0.9296646043633996,
+    "top_features": [
+      {
+        "feature": "Median_tot_hhd_inc_weekly",
+        "importance": 0.18010773504835564
+      },
+      {
+        "feature": "Median_tot_fam_inc_weekly",
+        "importance": 0.17497598770716188
+      },
+      {
+        "feature": "Average_household_size",
+        "importance": 0.05712105144380482
+      },
+      {
+        "feature": "P_PGrad_Deg_Total",
+        "importance": 0.03892214893007463
+      },
+      {
+        "feature": "Median_mortgage_repay_monthly",
+        "importance": 0.03736158647015958
+      },
+      {
+        "feature": "P_3000_3499_Tot",
+        "importance": 0.03538191705917876
+      },
+      {
+        "feature": "Average_num_psns_per_bedroom",
+        "importance": 0.033779157230444896
+      },
+      {
+        "feature": "P_15_yrs_over_P",
+        "importance": 0.02936960191676677
+      },
+      {
+        "feature": "Tot_P_F",
+        "importance": 0.028295306023467415
+      },
+      {
+        "feature": "Tot_P_P",
+        "importance": 0.02692209779754111
+      },
+      {
+        "feature": "M_PGrad_Deg_Total",
+        "importance": 0.026839227489348295
+      },
+      {
+        "feature": "M_3000_3499_Tot",
+        "importance": 0.023057302657197094
+      },
+      {
+        "feature": "Median_rent_weekly",
+        "importance": 0.022818322070209812
+      },
+      {
+        "feature": "P_15_yrs_over_F",
+        "importance": 0.02279997834133434
+      },
+      {
+        "feature": "Tot_P_M",
+        "importance": 0.02224459692512952
+      },
+      {
+        "feature": "P_15_yrs_over_M",
+        "importance": 0.02212743496484987
+      },
+      {
+        "feature": "P_GradDip_and_GradCert_45_54",
+        "importance": 0.021173510468344064
+      },
+      {
+        "feature": "P_PGrad_Deg_45_54",
+        "importance": 0.019813797663282375
+      },
+      {
+        "feature": "F_3000_3499_Tot",
+        "importance": 0.016526801912995458
+      },
+      {
+        "feature": "P_PGrad_Deg_35_44",
+        "importance": 0.012583586739613094
+      }
+    ]
+  },
+  "age_prediction": {
+    "model": "GradientBoostingRegressor",
+    "train_mae": 3.7820507072807783,
+    "test_mae": 4.381497540261722,
+    "test_r2": 0.7286231422611368
+  },
+  "income_prediction": {
+    "model": "RandomForestRegressor",
+    "train_mae": 45.09222726837187,
+    "test_mae": 96.05569401582424,
+    "test_r2": 0.6896590086161131,
+    "top_features": [
+      {
+        "feature": "Median_tot_fam_inc_weekly",
+        "importance": 0.30663183439090536
+      },
+      {
+        "feature": "Median_tot_hhd_inc_weekly",
+        "importance": 0.2970892445345894
+      },
+      {
+        "feature": "Average_household_size",
+        "importance": 0.08327462469877837
+      },
+      {
+        "feature": "Tot_P_P",
+        "importance": 0.08072558282528021
+      },
+      {
+        "feature": "Average_num_psns_per_bedroom",
+        "importance": 0.03557449712136078
+      },
+      {
+        "feature": "P_15_yrs_over_P",
+        "importance": 0.03253424764371943
+      },
+      {
+        "feature": "Median_mortgage_repay_monthly",
+        "importance": 0.023574431117110984
+      },
+      {
+        "feature": "P_15_yrs_over_M",
+        "importance": 0.021679804184463632
+      },
+      {
+        "feature": "Tot_P_M",
+        "importance": 0.02121772915000197
+      },
+      {
+        "feature": "Tot_P_F",
+        "importance": 0.020248383091478948
+      },
+      {
+        "feature": "P_15_yrs_over_F",
+        "importance": 0.01732928037122914
+      },
+      {
+        "feature": "Median_rent_weekly",
+        "importance": 0.01322973294912613
+      },
+      {
+        "feature": "M_3000_3499_Tot",
+        "importance": 0.007025142136893636
+      },
+      {
+        "feature": "P_3000_3499_Tot",
+        "importance": 0.005948837634078141
+      },
+      {
+        "feature": "M_3000_3499_25_34_yrs",
+        "importance": 0.004658055931930466
+      },
+      {
+        "feature": "P_PGrad_Deg_45_54",
+        "importance": 0.0033550665230578204
+      },
+      {
+        "feature": "P_PGrad_Deg_Total",
+        "importance": 0.0026057828817241907
+      },
+      {
+        "feature": "P_3000_3499_25_34_yrs",
+        "importance": 0.002553642396014995
+      },
+      {
+        "feature": "M_PGrad_Deg_Total",
+        "importance": 0.0017115152544371652
+      },
+      {
+        "feature": "M_3000_3499_35_44_yrs",
+        "importance": 0.0013590193416091346
+      }
+    ]
+  }
+}

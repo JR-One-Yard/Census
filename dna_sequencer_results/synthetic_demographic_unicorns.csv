@@ -1,0 +1,301 @@
+person_id,age,sex,weekly_income,education,occupation,suburb_code
+10,27,M,3141,No qualification,Professional,SAL60682
+88,25,F,8698,No qualification,Clerical/Administrative,SAL13394
+94,28,M,5691,Postgraduate,Sales,SAL41464
+129,26,F,3421,No qualification,Clerical/Administrative,SAL20099
+238,22,M,7116,Year 12,Labourer,SAL13032
+245,30,M,3611,No qualification,Community/Personal Service,SAL32193
+257,21,M,3986,Year 12,Labourer,SAL30960
+289,23,M,3187,Bachelor,Professional,SAL32558
+301,25,F,6061,No qualification,Technician,SAL22724
+307,24,M,6215,Year 12,Technician,SAL50086
+365,28,M,3201,No qualification,Professional,SAL20664
+375,20,F,5336,Certificate III/IV,Machinery Operator,SAL12325
+469,24,F,3991,No qualification,Community/Personal Service,SAL11203
+514,24,F,6154,Certificate III/IV,Sales,SAL13972
+586,27,M,6409,Year 12,Not in labour force,SAL50201
+625,26,F,4026,No qualification,Technician,SAL50482
+700,25,M,3452,No qualification,Technician,SAL20304
+712,25,F,3395,Certificate III/IV,Manager,SAL22720
+718,29,F,4493,Bachelor,Technician,SAL30032
+728,25,F,8159,Certificate III/IV,Technician,SAL32518
+801,26,F,3759,No qualification,Technician,SAL30193
+804,28,F,6882,Year 12,Community/Personal Service,SAL50847
+930,25,M,5838,Year 12,Professional,SAL41185
+935,26,M,3004,Bachelor,Sales,SAL20737
+973,22,F,3919,Year 12,Sales,SAL80037
+976,27,M,3730,Diploma,Machinery Operator,SAL11213
+1034,26,F,4509,Certificate III/IV,Labourer,SAL11299
+1059,29,M,5838,Year 12,Professional,SAL22391
+1064,29,M,5333,Diploma,Professional,SAL14169
+1068,27,M,7012,No qualification,Not in labour force,SAL11797
+1075,26,F,3832,Postgraduate,Professional,SAL11384
+1081,29,F,6162,Year 12,Labourer,SAL40411
+1127,20,F,3526,No qualification,Not in labour force,SAL50960
+1206,21,F,3808,Bachelor,Professional,SAL32107
+1212,21,M,3658,Diploma,Technician,SAL22215
+1317,30,M,4099,Bachelor,Technician,SAL22122
+1338,29,F,3034,Year 12,Technician,SAL13126
+1381,26,F,4043,No qualification,Sales,SAL30377
+1394,29,M,3372,Certificate III/IV,Machinery Operator,SAL30091
+1405,20,F,3288,Bachelor,Technician,SAL60320
+1464,24,M,3280,No qualification,Manager,SAL10789
+1471,23,F,4689,Diploma,Manager,SAL51359
+1481,29,F,3087,Year 12,Sales,SAL20683
+1490,25,F,4396,Certificate III/IV,Machinery Operator,SAL50816
+1561,20,F,3434,Postgraduate,Technician,SAL30773
+1569,25,M,3930,No qualification,Technician,SAL10371
+1618,28,M,4308,No qualification,Technician,SAL13410
+1632,23,F,5182,Postgraduate,Clerical/Administrative,SAL31785
+1667,26,F,3808,Certificate III/IV,Professional,SAL11834
+1675,30,M,3404,No qualification,Manager,SAL13455
+1802,21,F,3523,Diploma,Professional,SAL20036
+1823,23,F,5048,No qualification,Not in labour force,SAL20779
+2088,27,F,6811,Postgraduate,Clerical/Administrative,SAL40582
+2110,25,F,3191,Certificate III/IV,Professional,SAL22086
+2155,23,M,3925,No qualification,Professional,SAL50472
+2220,29,M,3039,Postgraduate,Technician,SAL30550
+2221,23,F,4206,Diploma,Technician,SAL12907
+2281,22,M,3064,Bachelor,Professional,SAL12861
+2284,27,M,4296,Diploma,Sales,SAL60051
+2400,21,F,5862,Bachelor,Clerical/Administrative,SAL20867
+2483,20,M,3204,No qualification,Manager,SAL10814
+2484,25,F,8605,Bachelor,Labourer,SAL21783
+2486,29,M,5842,No qualification,Professional,SAL51156
+2534,28,F,4717,Year 12,Technician,SAL51230
+2591,27,F,3666,Year 12,Professional,SAL50583
+2646,29,F,3709,Certificate III/IV,Manager,SAL41279
+2682,30,F,4193,Bachelor,Labourer,SAL14115
+2781,23,M,10000,Certificate III/IV,Manager,SAL20314
+2798,29,M,3315,Diploma,Technician,SAL11743
+2809,25,F,3593,No qualification,Clerical/Administrative,SAL32447
+2855,26,M,3579,Year 12,Technician,SAL10231
+2882,24,M,3728,No qualification,Manager,SAL12190
+2910,25,M,8414,Bachelor,Labourer,SAL10046
+2941,27,M,3432,Year 12,Sales,SAL20935
+2962,25,F,3810,No qualification,Professional,SAL11346
+3002,28,F,10000,Bachelor,Professional,SAL22198
+3022,28,F,3538,No qualification,Professional,SAL41395
+3031,22,F,6421,Postgraduate,Manager,SAL32914
+3063,25,F,3334,No qualification,Clerical/Administrative,SAL12683
+3117,20,F,5576,No qualification,Professional,SAL11717
+3121,23,M,3765,Diploma,Clerical/Administrative,SAL32483
+3153,29,F,3333,Year 12,Labourer,SAL51138
+3218,21,F,4565,No qualification,Technician,SAL31496
+3350,26,F,3942,Bachelor,Machinery Operator,SAL20315
+3414,25,F,3626,Certificate III/IV,Professional,SAL13352
+3485,26,M,3512,Diploma,Clerical/Administrative,SAL11990
+3493,25,F,4403,Year 12,Manager,SAL22086
+3504,26,F,5631,No qualification,Manager,SAL22027
+3509,25,F,3014,Bachelor,Technician,SAL20640
+3524,24,M,4851,No qualification,Manager,SAL10163
+3601,21,M,4869,Certificate III/IV,Manager,SAL10767
+3750,24,M,4055,No qualification,Not in labour force,SAL13747
+3772,20,M,4477,Bachelor,Sales,SAL20018
+3781,30,M,3613,Year 12,Community/Personal Service,SAL32318
+3785,25,M,4253,Bachelor,Manager,SAL51588
+3791,28,M,6309,Year 12,Manager,SAL51111
+3831,25,F,3612,Diploma,Professional,SAL11553
+3835,28,M,3451,Certificate III/IV,Professional,SAL20015
+3840,23,F,3112,Year 12,Community/Personal Service,SAL80102
+3900,25,F,9454,Bachelor,Technician,SAL51564
+3,73,F,1672,Certificate III/IV,Sales,SAL22473
+6,74,M,849,Year 12,Labourer,SAL22226
+20,71,M,1428,No qualification,Professional,SAL12516
+31,80,F,1631,No qualification,Technician,SAL22038
+71,73,M,879,Certificate III/IV,Clerical/Administrative,SAL11763
+73,73,M,1713,No qualification,Machinery Operator,SAL12516
+82,71,M,1804,Certificate III/IV,Not in labour force,SAL13131
+106,81,F,1296,Year 12,Manager,SAL21735
+113,94,F,2066,No qualification,Clerical/Administrative,SAL10022
+122,70,F,1203,No qualification,Clerical/Administrative,SAL32742
+125,88,M,2714,Certificate III/IV,Sales,SAL30905
+156,80,M,811,Bachelor,Community/Personal Service,SAL51301
+167,81,M,1071,Postgraduate,Clerical/Administrative,SAL11277
+177,71,F,3938,Certificate III/IV,Professional,SAL41313
+209,100,M,6581,No qualification,Technician,SAL60490
+234,87,F,716,No qualification,Machinery Operator,SAL30300
+248,78,F,573,No qualification,Professional,SAL21152
+252,86,F,1614,Certificate III/IV,Manager,SAL10829
+266,75,F,4448,No qualification,Professional,SAL10308
+284,87,F,896,Year 12,Technician,SAL40049
+323,86,M,797,No qualification,Clerical/Administrative,SAL32107
+351,71,M,1272,Bachelor,Manager,SAL30049
+361,73,F,1826,Year 12,Technician,SAL20189
+372,71,F,1564,No qualification,Manager,SAL13421
+374,87,M,1270,Bachelor,Professional,SAL13164
+378,88,M,10000,Year 12,Technician,SAL31315
+387,81,M,2433,Certificate III/IV,Sales,SAL80049
+393,80,F,1409,Bachelor,Technician,SAL40814
+416,73,F,1226,Year 12,Technician,SAL33045
+420,85,M,978,Bachelor,Technician,SAL22680
+421,78,M,1320,Certificate III/IV,Professional,SAL50925
+434,72,M,2878,Diploma,Technician,SAL41366
+460,83,F,1828,No qualification,Professional,SAL20682
+474,75,M,1416,Postgraduate,Labourer,SAL21010
+488,76,F,1852,Bachelor,Machinery Operator,SAL12485
+491,72,M,634,Bachelor,Community/Personal Service,SAL20867
+494,73,F,686,Diploma,Clerical/Administrative,SAL30915
+501,81,M,5268,Certificate III/IV,Professional,SAL12485
+543,71,M,966,No qualification,Not in labour force,SAL11549
+571,76,F,2709,No qualification,Sales,SAL32050
+583,90,F,553,Bachelor,Professional,SAL50960
+605,81,M,1128,Bachelor,Community/Personal Service,SAL21362
+609,72,M,2398,Bachelor,Technician,SAL20175
+622,81,M,1553,No qualification,Labourer,SAL60235
+624,74,F,775,Certificate III/IV,Technician,SAL20865
+631,73,M,1092,Diploma,Community/Personal Service,SAL11221
+641,76,F,2420,Bachelor,Manager,SAL21133
+650,80,M,1860,Bachelor,Professional,SAL32726
+654,97,M,4317,Year 12,Sales,SAL13575
+667,72,F,853,No qualification,Labourer,SAL11767
+677,78,M,747,Diploma,Professional,SAL10233
+707,78,M,4112,No qualification,Manager,SAL13613
+709,77,M,1085,Year 12,Community/Personal Service,SAL31764
+738,76,F,2147,Certificate III/IV,Machinery Operator,SAL31747
+755,98,F,2294,Certificate III/IV,Professional,SAL20779
+762,96,M,3800,Year 12,Sales,SAL21469
+767,78,F,1321,No qualification,Professional,SAL51371
+769,79,M,3179,Certificate III/IV,Labourer,SAL30353
+812,71,F,6042,Bachelor,Manager,SAL50051
+821,70,F,1084,Diploma,Manager,SAL40515
+822,90,F,1512,Certificate III/IV,Clerical/Administrative,SAL10112
+825,71,M,10000,Year 12,Clerical/Administrative,SAL14471
+826,74,F,2031,No qualification,Professional,SAL11537
+836,73,F,559,Certificate III/IV,Professional,SAL22291
+847,94,F,1279,Certificate III/IV,Sales,SAL20766
+854,70,M,2649,Year 12,Technician,SAL11962
+862,73,F,517,Year 12,Labourer,SAL10099
+863,79,F,592,No qualification,Technician,SAL50873
+869,84,M,6156,No qualification,Professional,SAL50482
+875,79,F,1530,Diploma,Technician,SAL11762
+880,96,M,3169,Diploma,Labourer,SAL13286
+885,80,F,1757,Year 12,Clerical/Administrative,SAL10350
+909,87,F,2768,Certificate III/IV,Clerical/Administrative,SAL60013
+913,74,F,1278,Diploma,Sales,SAL11527
+928,74,F,1502,Certificate III/IV,Technician,SAL10107
+931,81,F,1204,Diploma,Clerical/Administrative,SAL30422
+944,80,M,1339,No qualification,Machinery Operator,SAL12943
+953,71,M,4352,Year 12,Community/Personal Service,SAL22110
+965,71,F,1704,Certificate III/IV,Technician,SAL20495
+967,79,M,1410,No qualification,Community/Personal Service,SAL21682
+986,72,F,852,Year 12,Technician,SAL41081
+996,79,M,2297,Postgraduate,Labourer,SAL51330
+1000,70,F,769,No qualification,Clerical/Administrative,SAL11936
+1012,85,F,808,Bachelor,Professional,SAL30425
+1014,77,F,1474,Bachelor,Sales,SAL32676
+1023,87,F,1148,No qualification,Technician,SAL11363
+1035,74,F,2257,Postgraduate,Clerical/Administrative,SAL33065
+1040,76,F,554,Bachelor,Technician,SAL10112
+1048,71,F,1463,No qualification,Professional,SAL21625
+1078,72,F,868,Diploma,Technician,SAL20661
+1083,85,F,577,Bachelor,Clerical/Administrative,SAL21640
+1102,86,F,3599,Year 12,Machinery Operator,SAL10061
+1109,82,F,1166,No qualification,Professional,SAL31496
+1116,93,F,925,Year 12,Community/Personal Service,SAL22504
+1124,75,F,1044,Postgraduate,Clerical/Administrative,SAL11363
+1132,75,F,727,Bachelor,Machinery Operator,SAL30123
+1148,74,F,3256,Year 12,Not in labour force,SAL51534
+1154,75,F,2070,Diploma,Clerical/Administrative,SAL10815
+1157,89,M,605,No qualification,Manager,SAL31104
+1161,90,M,3871,Postgraduate,Not in labour force,SAL30379
+19,5,F,1058,Postgraduate,Labourer,SAL10846
+35,9,M,1420,Postgraduate,Clerical/Administrative,SAL20838
+126,15,F,642,Postgraduate,Community/Personal Service,SAL41201
+130,2,F,919,Postgraduate,Machinery Operator,SAL21742
+189,3,M,900,Postgraduate,Technician,SAL21763
+300,18,F,2815,Postgraduate,Professional,SAL51666
+333,22,M,1675,Postgraduate,Manager,SAL32960
+400,1,M,984,Postgraduate,Labourer,SAL32270
+457,14,M,2925,Postgraduate,Community/Personal Service,SAL22088
+498,17,F,2798,Postgraduate,Machinery Operator,SAL22014
+525,0,M,741,Postgraduate,Professional,SAL21635
+531,0,F,3127,Postgraduate,Clerical/Administrative,SAL22124
+608,0,F,667,Postgraduate,Professional,SAL40822
+630,0,F,906,Postgraduate,Manager,SAL11551
+653,12,F,465,Postgraduate,Professional,SAL31047
+749,5,M,1474,Postgraduate,Professional,SAL10772
+850,23,F,832,Postgraduate,Manager,SAL20095
+852,23,F,2995,Postgraduate,Professional,SAL31771
+945,13,F,7826,Postgraduate,Not in labour force,SAL12529
+1066,8,M,749,Postgraduate,Manager,SAL21659
+1101,0,F,2836,Postgraduate,Professional,SAL40039
+1211,22,M,2932,Postgraduate,Machinery Operator,SAL10864
+1220,10,M,2125,Postgraduate,Clerical/Administrative,SAL21542
+1249,2,F,938,Postgraduate,Clerical/Administrative,SAL51113
+1300,22,F,1357,Postgraduate,Sales,SAL30451
+1325,0,M,2707,Postgraduate,Sales,SAL51192
+1363,15,F,893,Postgraduate,Technician,SAL32257
+1396,7,M,1125,Postgraduate,Clerical/Administrative,SAL12767
+1487,0,F,1125,Postgraduate,Professional,SAL50816
+1513,0,M,2961,Postgraduate,Clerical/Administrative,SAL31772
+1561,20,F,3434,Postgraduate,Technician,SAL30773
+1603,19,F,1021,Postgraduate,Professional,SAL40878
+1631,18,M,5009,Postgraduate,Professional,SAL22484
+1632,23,F,5182,Postgraduate,Clerical/Administrative,SAL31785
+1684,10,M,660,Postgraduate,Labourer,SAL40509
+1724,16,F,1964,Postgraduate,Labourer,SAL21214
+1765,18,F,4790,Postgraduate,Manager,SAL60244
+1795,20,M,477,Postgraduate,Professional,SAL41029
+1805,1,M,859,Postgraduate,Manager,SAL10315
+1852,10,F,321,Postgraduate,Community/Personal Service,SAL32274
+1863,0,M,2269,Postgraduate,Community/Personal Service,SAL13325
+1870,12,M,867,Postgraduate,Manager,SAL22315
+1879,19,M,2825,Postgraduate,Manager,SAL21339
+1882,9,F,1265,Postgraduate,Clerical/Administrative,SAL14069
+1950,0,M,1632,Postgraduate,Clerical/Administrative,SAL11936
+2002,19,F,1639,Postgraduate,Technician,SAL50486
+2024,0,F,1857,Postgraduate,Labourer,SAL13126
+2051,18,F,361,Postgraduate,Technician,SAL40318
+2054,7,M,1632,Postgraduate,Manager,SAL13032
+2193,6,F,1250,Postgraduate,Professional,SAL20075
+2230,22,F,1034,Postgraduate,Not in labour force,SAL13195
+2274,12,F,572,Postgraduate,Manager,SAL12540
+2368,12,F,921,Postgraduate,Clerical/Administrative,SAL22186
+2397,14,F,3065,Postgraduate,Machinery Operator,SAL50609
+2439,1,M,1854,Postgraduate,Sales,SAL13193
+2473,6,F,1196,Postgraduate,Professional,SAL31631
+2508,6,F,5129,Postgraduate,Manager,SAL11019
+2533,16,M,1801,Postgraduate,Labourer,SAL21163
+2551,0,F,1470,Postgraduate,Clerical/Administrative,SAL22423
+2575,12,M,2214,Postgraduate,Professional,SAL50970
+2596,24,M,1737,Postgraduate,Professional,SAL32595
+2642,18,M,852,Postgraduate,Technician,SAL11884
+2645,19,F,499,Postgraduate,Not in labour force,SAL32827
+2670,21,M,1198,Postgraduate,Professional,SAL20771
+2690,14,M,1174,Postgraduate,Professional,SAL22208
+2761,19,F,914,Postgraduate,Manager,SAL32241
+2771,20,F,1140,Postgraduate,Technician,SAL32742
+2843,11,M,521,Postgraduate,Professional,SAL40873
+2856,21,F,780,Postgraduate,Technician,SAL13197
+2904,3,M,2112,Postgraduate,Technician,SAL31847
+3031,22,F,6421,Postgraduate,Manager,SAL32914
+3055,18,M,1968,Postgraduate,Community/Personal Service,SAL60632
+3064,3,F,659,Postgraduate,Manager,SAL22027
+3094,18,F,2065,Postgraduate,Professional,SAL11921
+3152,0,F,1440,Postgraduate,Machinery Operator,SAL31985
+3164,11,F,5940,Postgraduate,Manager,SAL20664
+3175,20,F,1966,Postgraduate,Labourer,SAL32726
+3184,20,F,1734,Postgraduate,Manager,SAL50054
+3231,0,F,676,Postgraduate,Professional,SAL30242
+3331,2,M,3712,Postgraduate,Labourer,SAL50615
+3374,0,F,1039,Postgraduate,Clerical/Administrative,SAL30215
+3390,1,M,1515,Postgraduate,Manager,SAL20037
+3395,6,F,1072,Postgraduate,Clerical/Administrative,SAL22328
+3577,23,F,764,Postgraduate,Clerical/Administrative,SAL30404
+3680,12,F,7680,Postgraduate,Professional,SAL31333
+3729,0,M,1024,Postgraduate,Professional,SAL70203
+3739,6,F,4181,Postgraduate,Sales,SAL80048
+3749,4,F,2025,Postgraduate,Professional,SAL10465
+3815,0,M,241,Postgraduate,Labourer,SAL22686
+3954,24,F,3662,Postgraduate,Not in labour force,SAL11971
+3967,0,F,279,Postgraduate,Labourer,SAL22551
+3989,20,F,1964,Postgraduate,Manager,SAL22820
+4021,5,F,574,Postgraduate,Community/Personal Service,SAL32445
+4077,0,M,600,Postgraduate,Professional,SAL40703
+4202,15,F,7689,Postgraduate,Clerical/Administrative,SAL20702
+4205,23,M,912,Postgraduate,Professional,SAL60042
+4245,2,M,1289,Postgraduate,Professional,SAL20337
+4274,0,M,650,Postgraduate,Technician,SAL13386
+4276,24,F,1945,Postgraduate,Community/Personal Service,SAL51230
+4296,13,M,2422,Postgraduate,Labourer,SAL21675

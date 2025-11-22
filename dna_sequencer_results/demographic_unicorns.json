@@ -1,0 +1,548 @@
+{
+  "cluster_outliers": [
+    {
+      "suburb_name": "Pakenham",
+      "sal_code": "SAL22027",
+      "cluster": 4,
+      "distance_from_center": 54926.12639281958,
+      "age": 33.0,
+      "income": 783.0
+    },
+    {
+      "suburb_name": "Port Macquarie",
+      "sal_code": "SAL13258",
+      "cluster": 2,
+      "distance_from_center": 53709.83885437516,
+      "age": 48.0,
+      "income": 679.0
+    },
+    {
+      "suburb_name": "Point Cook",
+      "sal_code": "SAL22086",
+      "cluster": 9,
+      "distance_from_center": 47066.98136729719,
+      "age": 33.0,
+      "income": 969.0
+    },
+    {
+      "suburb_name": "Craigieburn",
+      "sal_code": "SAL20661",
+      "cluster": 9,
+      "distance_from_center": 45144.24218871815,
+      "age": 32.0,
+      "income": 700.0
+    },
+    {
+      "suburb_name": "Orange",
+      "sal_code": "SAL13103",
+      "cluster": 2,
+      "distance_from_center": 41401.46329963291,
+      "age": 36.0,
+      "income": 836.0
+    },
+    {
+      "suburb_name": "Dubbo",
+      "sal_code": "SAL11299",
+      "cluster": 4,
+      "distance_from_center": 39447.09054078954,
+      "age": 35.0,
+      "income": 876.0
+    },
+    {
+      "suburb_name": "Auburn (NSW)",
+      "sal_code": "SAL10107",
+      "cluster": 4,
+      "distance_from_center": 34366.48213968035,
+      "age": 31.0,
+      "income": 580.0
+    },
+    {
+      "suburb_name": "Liverpool",
+      "sal_code": "SAL12370",
+      "cluster": 5,
+      "distance_from_center": 33276.10729938623,
+      "age": 34.0,
+      "income": 589.0
+    },
+    {
+      "suburb_name": "Sunbury",
+      "sal_code": "SAL22391",
+      "cluster": 4,
+      "distance_from_center": 32901.81956694501,
+      "age": 38.0,
+      "income": 854.0
+    },
+    {
+      "suburb_name": "St Albans (Vic.)",
+      "sal_code": "SAL22330",
+      "cluster": 4,
+      "distance_from_center": 32432.30864081036,
+      "age": 36.0,
+      "income": 491.0
+    },
+    {
+      "suburb_name": "Dandenong",
+      "sal_code": "SAL20707",
+      "cluster": 5,
+      "distance_from_center": 31975.54105948347,
+      "age": 33.0,
+      "income": 596.0
+    },
+    {
+      "suburb_name": "Tarneit",
+      "sal_code": "SAL22451",
+      "cluster": 9,
+      "distance_from_center": 30731.49230264902,
+      "age": 30.0,
+      "income": 850.0
+    },
+    {
+      "suburb_name": "Caboolture",
+      "sal_code": "SAL30471",
+      "cluster": 5,
+      "distance_from_center": 30567.013688498642,
+      "age": 36.0,
+      "income": 640.0
+    },
+    {
+      "suburb_name": "Redbank Plains",
+      "sal_code": "SAL32405",
+      "cluster": 6,
+      "distance_from_center": 28267.024166698106,
+      "age": 27.0,
+      "income": 747.0
+    },
+    {
+      "suburb_name": "Surry Hills",
+      "sal_code": "SAL13714",
+      "cluster": 9,
+      "distance_from_center": 28103.548620724603,
+      "age": 35.0,
+      "income": 1442.0
+    },
+    {
+      "suburb_name": "Narre Warren",
+      "sal_code": "SAL21893",
+      "cluster": 5,
+      "distance_from_center": 27949.568837282055,
+      "age": 35.0,
+      "income": 741.0
+    },
+    {
+      "suburb_name": "Coffs Harbour",
+      "sal_code": "SAL10959",
+      "cluster": 5,
+      "distance_from_center": 27604.331439197256,
+      "age": 43.0,
+      "income": 652.0
+    },
+    {
+      "suburb_name": "Reservoir (Vic.)",
+      "sal_code": "SAL22161",
+      "cluster": 9,
+      "distance_from_center": 27551.30816325056,
+      "age": 38.0,
+      "income": 741.0
+    },
+    {
+      "suburb_name": "Buderim",
+      "sal_code": "SAL30408",
+      "cluster": 2,
+      "distance_from_center": 27283.98332631896,
+      "age": 46.0,
+      "income": 793.0
+    },
+    {
+      "suburb_name": "Warrnambool",
+      "sal_code": "SAL22710",
+      "cluster": 2,
+      "distance_from_center": 27115.616646381426,
+      "age": 42.0,
+      "income": 749.0
+    },
+    {
+      "suburb_name": "Cabramatta",
+      "sal_code": "SAL10738",
+      "cluster": 6,
+      "distance_from_center": 25666.285125418,
+      "age": 40.0,
+      "income": 461.0
+    },
+    {
+      "suburb_name": "Glen Waverley",
+      "sal_code": "SAL21013",
+      "cluster": 1,
+      "distance_from_center": 25534.13307726216,
+      "age": 40.0,
+      "income": 707.0
+    },
+    {
+      "suburb_name": "Deception Bay",
+      "sal_code": "SAL30819",
+      "cluster": 6,
+      "distance_from_center": 22465.14401260443,
+      "age": 40.0,
+      "income": 620.0
+    },
+    {
+      "suburb_name": "Castle Hill (NSW)",
+      "sal_code": "SAL10846",
+      "cluster": 1,
+      "distance_from_center": 21978.93608991724,
+      "age": 42.0,
+      "income": 931.0
+    },
+    {
+      "suburb_name": "Toorak",
+      "sal_code": "SAL22547",
+      "cluster": 1,
+      "distance_from_center": 21714.68243777314,
+      "age": 47.0,
+      "income": 1427.0
+    },
+    {
+      "suburb_name": "Surfers Paradise",
+      "sal_code": "SAL32702",
+      "cluster": 2,
+      "distance_from_center": 21364.47486134497,
+      "age": 42.0,
+      "income": 775.0
+    },
+    {
+      "suburb_name": "Fairfield (NSW)",
+      "sal_code": "SAL11480",
+      "cluster": 6,
+      "distance_from_center": 21320.99854787463,
+      "age": 40.0,
+      "income": 454.0
+    },
+    {
+      "suburb_name": "Parafield Gardens",
+      "sal_code": "SAL41103",
+      "cluster": 6,
+      "distance_from_center": 20558.66949477592,
+      "age": 36.0,
+      "income": 585.0
+    },
+    {
+      "suburb_name": "No usual address (Vic.)",
+      "sal_code": "SAL29494",
+      "cluster": 3,
+      "distance_from_center": 14760.671158390025,
+      "age": 0.0,
+      "income": 0.0
+    },
+    {
+      "suburb_name": "Wahroonga",
+      "sal_code": "SAL14103",
+      "cluster": 1,
+      "distance_from_center": 14516.9959202768,
+      "age": 44.0,
+      "income": 1042.0
+    },
+    {
+      "suburb_name": "St Ives (NSW)",
+      "sal_code": "SAL13654",
+      "cluster": 1,
+      "distance_from_center": 13952.110263899154,
+      "age": 43.0,
+      "income": 1077.0
+    },
+    {
+      "suburb_name": "No usual address (WA)",
+      "sal_code": "SAL59494",
+      "cluster": 3,
+      "distance_from_center": 13277.882726928825,
+      "age": 0.0,
+      "income": 0.0
+    },
+    {
+      "suburb_name": "South Tamworth",
+      "sal_code": "SAL13613",
+      "cluster": 8,
+      "distance_from_center": 9807.202333342317,
+      "age": 37.0,
+      "income": 626.0
+    },
+    {
+      "suburb_name": "Whyalla Stuart",
+      "sal_code": "SAL41590",
+      "cluster": 8,
+      "distance_from_center": 9664.811648947238,
+      "age": 41.0,
+      "income": 502.0
+    },
+    {
+      "suburb_name": "Springfield (Buloke - Vic.)",
+      "sal_code": "SAL22324",
+      "cluster": 0,
+      "distance_from_center": 9486.38008789256,
+      "age": 57.0,
+      "income": 1562.0
+    },
+    {
+      "suburb_name": "Burton (SA)",
+      "sal_code": "SAL40196",
+      "cluster": 0,
+      "distance_from_center": 9368.15011859535,
+      "age": 33.0,
+      "income": 653.0
+    },
+    {
+      "suburb_name": "Salisbury Downs",
+      "sal_code": "SAL41289",
+      "cluster": 8,
+      "distance_from_center": 9307.11259157123,
+      "age": 37.0,
+      "income": 535.0
+    },
+    {
+      "suburb_name": "Davoren Park",
+      "sal_code": "SAL40353",
+      "cluster": 8,
+      "distance_from_center": 9266.162033326413,
+      "age": 33.0,
+      "income": 486.0
+    },
+    {
+      "suburb_name": "South Grafton",
+      "sal_code": "SAL13598",
+      "cluster": 8,
+      "distance_from_center": 9207.761361136863,
+      "age": 40.0,
+      "income": 526.0
+    },
+    {
+      "suburb_name": "Kings Park (WA)",
+      "sal_code": "SAL50762",
+      "cluster": 0,
+      "distance_from_center": 9147.251166540156,
+      "age": 61.0,
+      "income": 2150.0
+    },
+    {
+      "suburb_name": "Hanleys Creek",
+      "sal_code": "SAL11855",
+      "cluster": 0,
+      "distance_from_center": 9035.937935018423,
+      "age": 13.0,
+      "income": 1750.0
+    },
+    {
+      "suburb_name": "Ulooloo",
+      "sal_code": "SAL41485",
+      "cluster": 0,
+      "distance_from_center": 8735.086178070034,
+      "age": 62.0,
+      "income": 3500.0
+    },
+    {
+      "suburb_name": "No usual address (NT)",
+      "sal_code": "SAL79494",
+      "cluster": 3,
+      "distance_from_center": 5612.482399290213,
+      "age": 0.0,
+      "income": 0.0
+    },
+    {
+      "suburb_name": "No usual address (SA)",
+      "sal_code": "SAL49494",
+      "cluster": 3,
+      "distance_from_center": 5447.325408835846,
+      "age": 0.0,
+      "income": 0.0
+    },
+    {
+      "suburb_name": "Chichester (WA)",
+      "sal_code": "SAL50289",
+      "cluster": 3,
+      "distance_from_center": 2742.34528570514,
+      "age": 35.0,
+      "income": 2866.0
+    }
+  ],
+  "unusual_combinations": [
+    {
+      "type": "Young & Wealthy",
+      "suburb": "Deep Creek (Clarence Valley - NSW)",
+      "age": 26.0,
+      "income": 3250.0,
+      "population": 12.0
+    },
+    {
+      "type": "Young & Wealthy",
+      "suburb": "Jews Lagoon",
+      "age": 27.0,
+      "income": 2124.0,
+      "population": 0.0
+    },
+    {
+      "type": "Young & Wealthy",
+      "suburb": "Swan Hill West",
+      "age": 26.0,
+      "income": 2150.0,
+      "population": 11.0
+    },
+    {
+      "type": "Young & Wealthy",
+      "suburb": "Spring Bluff",
+      "age": 12.0,
+      "income": 2500.0,
+      "population": 15.0
+    },
+    {
+      "type": "Young & Wealthy",
+      "suburb": "Wainui",
+      "age": 12.0,
+      "income": 2500.0,
+      "population": 8.0
+    },
+    {
+      "type": "Young & Wealthy",
+      "suburb": "Sir Samuel",
+      "age": 27.0,
+      "income": 2167.0,
+      "population": 35.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Blue Mountains National Park",
+      "age": 69.0,
+      "income": 1625.0,
+      "population": 0.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Coongbar",
+      "age": 67.0,
+      "income": 3250.0,
+      "population": 0.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Manchester Square",
+      "age": 66.0,
+      "income": 1666.0,
+      "population": 27.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Upper Mangrove",
+      "age": 68.0,
+      "income": 1750.0,
+      "population": 0.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Abbeyard",
+      "age": 63.0,
+      "income": 2250.0,
+      "population": 4.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Bringalbert",
+      "age": 63.0,
+      "income": 1812.0,
+      "population": 6.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Bungil (Vic.)",
+      "age": 71.0,
+      "income": 2500.0,
+      "population": 0.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Little Desert",
+      "age": 63.0,
+      "income": 1699.0,
+      "population": 5.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Lorquon",
+      "age": 70.0,
+      "income": 2500.0,
+      "population": 8.0
+    },
+    {
+      "type": "Old & Wealthy",
+      "suburb": "Ninyeunook",
+      "age": 64.0,
+      "income": 1625.0,
+      "population": 13.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Callaghan",
+      "age": 20.0,
+      "income": 302.0,
+      "population": 1358.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Charles Sturt University",
+      "age": 20.0,
+      "income": 317.0,
+      "population": 433.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "No usual address (NSW)",
+      "age": 0.0,
+      "income": 0.0,
+      "population": 11371.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Howqua",
+      "age": 15.0,
+      "income": 420.0,
+      "population": 158.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "No usual address (Vic.)",
+      "age": 0.0,
+      "income": 0.0,
+      "population": 9089.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Cherbourg",
+      "age": 23.0,
+      "income": 375.0,
+      "population": 1194.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Keriri Island",
+      "age": 23.0,
+      "income": 453.0,
+      "population": 261.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Lawes",
+      "age": 21.0,
+      "income": 289.0,
+      "population": 105.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Mabuiag Island",
+      "age": 21.0,
+      "income": 351.0,
+      "population": 253.0
+    },
+    {
+      "type": "Young & Poor (Student areas?)",
+      "suburb": "Woorabinda",
+      "age": 23.0,
+      "income": 361.0,
+      "population": 1019.0
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 4923,
+    "avg_age": 42.03717245581962,
+    "avg_income": 958.8062157221207,
+    "example_suburbs": [
+      "Abercrombie",
+      "Aberfoyle",
+      "Abermain",
+      "Abernethy",
+      "Abington (NSW)",
+      "Adjungbilly",
+      "Agnes Banks",
+      "Alfredtown",
+      "Alison (Central Coast - NSW)",
+      "Allandale (NSW)"
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 15,
+    "avg_age": 41.0,
+    "avg_income": 1136.4,
+    "example_suburbs": [
+      "Castle Hill (NSW)",
+      "Maroubra",
+      "Mosman",
+      "Randwick",
+      "St Ives (NSW)",
+      "Wahroonga",
+      "Brighton (Vic.)",
+      "Camberwell (Vic.)",
+      "Glen Iris (Vic.)",
+      "Glen Waverley"
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 105,
+    "avg_age": 41.27619047619048,
+    "avg_income": 1120.3714285714286,
+    "example_suburbs": [
+      "Armidale",
+      "Avalon Beach",
+      "Balmain",
+      "Beecroft",
+      "Bellevue Hill",
+      "Bondi Junction",
+      "Bowral",
+      "Cammeray",
+      "Cherrybrook",
+      "Concord"
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 613,
+    "avg_age": 6.859706362153344,
+    "avg_income": 124.01794453507341,
+    "example_suburbs": [
+      "Avon (NSW)",
+      "Banda Banda",
+      "Barcoongere",
+      "Barigan",
+      "Barneys Reef",
+      "Barren Grounds",
+      "Barry (Tamworth Regional - NSW)",
+      "Baxters Ridge",
+      "Berlang",
+      "Bimberi"
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 172,
+    "avg_age": 35.83720930232558,
+    "avg_income": 1014.6162790697674,
+    "example_suburbs": [
+      "Alexandria",
+      "Annandale (NSW)",
+      "Artarmon",
+      "Auburn (NSW)",
+      "Bankstown",
+      "Bondi",
+      "Bondi Beach",
+      "Burwood (NSW)",
+      "Camperdown (NSW)",
+      "Campsie"
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "size": 639,
+    "avg_age": 39.533646322378715,
+    "avg_income": 955.3724569640062,
+    "example_suburbs": [
+      "Abbotsford (NSW)",
+      "Adamstown Heights",
+      "Albion Park",
+      "Albury",
+      "Allambie Heights",
+      "Arncliffe",
+      "Asquith",
+      "Balgowlah",
+      "Balgowlah Heights",
+      "Bangor (NSW)"
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "size": 1512,
+    "avg_age": 40.16005291005291,
+    "avg_income": 852.2744708994709,
+    "example_suburbs": [
+      "Abbotsbury",
+      "Aberglasslyn",
+      "Acacia Gardens",
+      "Adamstown",
+      "Albion Park Rail",
+      "Alfords Point",
+      "Allawah",
+      "Alstonville",
+      "Ambarvale",
+      "Anna Bay"
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 1,
+    "avg_age": 29.0,
+    "avg_income": 864.0,
+    "example_suburbs": [
+      "Melbourne"
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "size": 7343,
+    "avg_age": 49.354078714421895,
+    "avg_income": 634.6915429660902,
+    "example_suburbs": [
+      "Aarons Pass",
+      "Abercrombie River",
+      "Aberdare",
+      "Aberdeen (NSW)",
+      "Acacia Creek",
+      "Adaminaby",
+      "Adelong",
+      "Afterlee",
+      "Airds",
+      "Akolele"
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "size": 29,
+    "avg_age": 35.724137931034484,
+    "avg_income": 956.0689655172414,
+    "example_suburbs": [
+      "Ashfield (NSW)",
+      "Baulkham Hills",
+      "Blacktown",
+      "Carlingford",
+      "Chatswood",
+      "Epping (NSW)",
+      "Hornsby",
+      "Kellyville",
+      "Marrickville",
+      "Parramatta"
+    ]
+  }
+]

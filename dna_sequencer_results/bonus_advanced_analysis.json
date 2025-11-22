@@ -1,0 +1,367 @@
+{
+  "correlation_pairs": [
+    {
+      "feature1": "Median_tot_prsnl_inc_weekly",
+      "feature2": "Median_tot_hhd_inc_weekly",
+      "correlation": 0.7133313899133632
+    },
+    {
+      "feature1": "Median_tot_hhd_inc_weekly",
+      "feature2": "Average_household_size",
+      "correlation": 0.5853498476649808
+    },
+    {
+      "feature1": "Median_tot_prsnl_inc_weekly",
+      "feature2": "Average_household_size",
+      "correlation": 0.30862550076900286
+    },
+    {
+      "feature1": "Median_tot_hhd_inc_weekly",
+      "feature2": "Tot_P_P",
+      "correlation": 0.14757836553323136
+    },
+    {
+      "feature1": "Median_age_persons",
+      "feature2": "Tot_P_P",
+      "correlation": -0.14653796733366398
+    },
+    {
+      "feature1": "Median_age_persons",
+      "feature2": "Median_tot_prsnl_inc_weekly",
+      "correlation": 0.12203999677805649
+    },
+    {
+      "feature1": "Median_age_persons",
+      "feature2": "Average_household_size",
+      "correlation": 0.1192985904076775
+    },
+    {
+      "feature1": "Median_tot_prsnl_inc_weekly",
+      "feature2": "Tot_P_P",
+      "correlation": 0.10083397663123615
+    },
+    {
+      "feature1": "Average_household_size",
+      "feature2": "Tot_P_P",
+      "correlation": 0.09648781658010352
+    },
+    {
+      "feature1": "Median_age_persons",
+      "feature2": "Median_tot_hhd_inc_weekly",
+      "correlation": 0.05028301443950852
+    }
+  ],
+  "diversity_scores": [
+    {
+      "suburb_name": "Pakenham",
+      "cluster": 4,
+      "diversity_score": 54926.12984419413
+    },
+    {
+      "suburb_name": "Port Macquarie",
+      "cluster": 2,
+      "diversity_score": 53709.86353837151
+    },
+    {
+      "suburb_name": "Point Cook",
+      "cluster": 9,
+      "diversity_score": 47066.98246689238
+    },
+    {
+      "suburb_name": "Craigieburn",
+      "cluster": 9,
+      "diversity_score": 45144.25472925221
+    },
+    {
+      "suburb_name": "Orange",
+      "cluster": 2,
+      "diversity_score": 41401.47164787344
+    },
+    {
+      "suburb_name": "Dubbo",
+      "cluster": 4,
+      "diversity_score": 39447.090957868415
+    },
+    {
+      "suburb_name": "Auburn (NSW)",
+      "cluster": 4,
+      "diversity_score": 34366.52192193082
+    },
+    {
+      "suburb_name": "Liverpool",
+      "cluster": 5,
+      "diversity_score": 33276.145321887794
+    },
+    {
+      "suburb_name": "Sunbury",
+      "cluster": 4,
+      "diversity_score": 32901.820659636694
+    },
+    {
+      "suburb_name": "St Albans (Vic.)",
+      "cluster": 4,
+      "diversity_score": 32432.366768340176
+    },
+    {
+      "suburb_name": "Dandenong",
+      "cluster": 5,
+      "diversity_score": 31975.580606783515
+    },
+    {
+      "suburb_name": "Southport (Qld)",
+      "cluster": 4,
+      "diversity_score": 31912.569517109077
+    },
+    {
+      "suburb_name": "Frankston",
+      "cluster": 4,
+      "diversity_score": 31220.469560143396
+    },
+    {
+      "suburb_name": "Tarneit",
+      "cluster": 9,
+      "diversity_score": 30731.495215619678
+    },
+    {
+      "suburb_name": "Caboolture",
+      "cluster": 5,
+      "diversity_score": 30567.041952075666
+    },
+    {
+      "suburb_name": "Hoppers Crossing",
+      "cluster": 4,
+      "diversity_score": 30324.629152139358
+    },
+    {
+      "suburb_name": "Baldivis",
+      "cluster": 4,
+      "diversity_score": 28986.54712574049
+    },
+    {
+      "suburb_name": "Redbank Plains",
+      "cluster": 6,
+      "diversity_score": 28267.041017588086
+    },
+    {
+      "suburb_name": "Surry Hills",
+      "cluster": 9,
+      "diversity_score": 28103.557747845163
+    },
+    {
+      "suburb_name": "Narre Warren",
+      "cluster": 5,
+      "diversity_score": 27949.582205098322
+    },
+    {
+      "suburb_name": "Coffs Harbour",
+      "cluster": 5,
+      "diversity_score": 27604.360530976304
+    },
+    {
+      "suburb_name": "Reservoir (Vic.)",
+      "cluster": 9,
+      "diversity_score": 27551.319615817567
+    },
+    {
+      "suburb_name": "Buderim",
+      "cluster": 2,
+      "diversity_score": 27283.999539769833
+    },
+    {
+      "suburb_name": "Warrnambool",
+      "cluster": 2,
+      "diversity_score": 27115.634834462777
+    },
+    {
+      "suburb_name": "Mildura",
+      "cluster": 4,
+      "diversity_score": 26446.410008667033
+    },
+    {
+      "suburb_name": "Bankstown",
+      "cluster": 4,
+      "diversity_score": 26403.948268515305
+    },
+    {
+      "suburb_name": "Upper Coomera",
+      "cluster": 5,
+      "diversity_score": 26025.47567237721
+    },
+    {
+      "suburb_name": "Blacktown",
+      "cluster": 9,
+      "diversity_score": 25819.07099980564
+    },
+    {
+      "suburb_name": "Cabramatta",
+      "cluster": 6,
+      "diversity_score": 25666.335510296703
+    },
+    {
+      "suburb_name": "Glen Waverley",
+      "cluster": 1,
+      "diversity_score": 25534.168563149786
+    },
+    {
+      "suburb_name": "Rowville",
+      "cluster": 4,
+      "diversity_score": 25150.34856310436
+    },
+    {
+      "suburb_name": "Hampton Park",
+      "cluster": 5,
+      "diversity_score": 25046.93050816501
+    },
+    {
+      "suburb_name": "Mount Gambier",
+      "cluster": 5,
+      "diversity_score": 25013.169647318042
+    },
+    {
+      "suburb_name": "Greenacre",
+      "cluster": 5,
+      "diversity_score": 24927.013676917304
+    },
+    {
+      "suburb_name": "Berwick",
+      "cluster": 9,
+      "diversity_score": 24248.371284132343
+    },
+    {
+      "suburb_name": "Epping (Vic.)",
+      "cluster": 4,
+      "diversity_score": 23995.106421410397
+    },
+    {
+      "suburb_name": "Werribee",
+      "cluster": 9,
+      "diversity_score": 23949.652145894517
+    },
+    {
+      "suburb_name": "Noble Park",
+      "cluster": 4,
+      "diversity_score": 23203.020191581847
+    },
+    {
+      "suburb_name": "Morayfield",
+      "cluster": 5,
+      "diversity_score": 23193.97363951508
+    },
+    {
+      "suburb_name": "Morphett Vale",
+      "cluster": 5,
+      "diversity_score": 22743.871739691407
+    },
+    {
+      "suburb_name": "Deception Bay",
+      "cluster": 6,
+      "diversity_score": 22465.165985875432
+    },
+    {
+      "suburb_name": "Merrylands",
+      "cluster": 4,
+      "diversity_score": 22452.641458733873
+    },
+    {
+      "suburb_name": "Hurstville",
+      "cluster": 4,
+      "diversity_score": 22385.087935448046
+    },
+    {
+      "suburb_name": "Goulburn",
+      "cluster": 5,
+      "diversity_score": 22305.661611685282
+    },
+    {
+      "suburb_name": "Shepparton",
+      "cluster": 4,
+      "diversity_score": 22221.564392753196
+    },
+    {
+      "suburb_name": "St Kilda (Vic.)",
+      "cluster": 9,
+      "diversity_score": 22016.62008359677
+    },
+    {
+      "suburb_name": "Castle Hill (NSW)",
+      "cluster": 1,
+      "diversity_score": 21978.937646005666
+    },
+    {
+      "suburb_name": "Ellenbrook",
+      "cluster": 5,
+      "diversity_score": 21961.61945166946
+    },
+    {
+      "suburb_name": "Cranbourne East",
+      "cluster": 5,
+      "diversity_score": 21817.03807689219
+    },
+    {
+      "suburb_name": "Roxburgh Park",
+      "cluster": 5,
+      "diversity_score": 21736.753243621053
+    }
+  ],
+  "extremes": {
+    "Median_age_persons": {
+      "high": [
+        {
+          "Suburb_Name": "New Chum",
+          "Median_age_persons": 91
+        }
+      ],
+      "low": []
+    },
+    "Median_tot_prsnl_inc_weekly": {
+      "high": [
+        {
+          "Suburb_Name": "Bulga (Vic.)",
+          "Median_tot_prsnl_inc_weekly": 3500
+        },
+        {
+          "Suburb_Name": "Petticoat Creek",
+          "Median_tot_prsnl_inc_weekly": 3500
+        },
+        {
+          "Suburb_Name": "Warenda",
+          "Median_tot_prsnl_inc_weekly": 3500
+        },
+        {
+          "Suburb_Name": "Middleback Range",
+          "Median_tot_prsnl_inc_weekly": 3500
+        },
+        {
+          "Suburb_Name": "Ulooloo",
+          "Median_tot_prsnl_inc_weekly": 3500
+        }
+      ],
+      "low": []
+    },
+    "Median_tot_hhd_inc_weekly": {
+      "high": [
+        {
+          "Suburb_Name": "Lionsville",
+          "Median_tot_hhd_inc_weekly": 8000
+        },
+        {
+          "Suburb_Name": "Bulga (Vic.)",
+          "Median_tot_hhd_inc_weekly": 8000
+        },
+        {
+          "Suburb_Name": "Spring Bluff",
+          "Median_tot_hhd_inc_weekly": 8000
+        },
+        {
+          "Suburb_Name": "Ulooloo",
+          "Median_tot_hhd_inc_weekly": 8000
+        },
+        {
+          "Suburb_Name": "Witera",
+          "Median_tot_hhd_inc_weekly": 8000
+        }
+      ],
+      "low": []
+    }
+  }
+}

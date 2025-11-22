@@ -1,0 +1,107 @@
+{
+  "num_nodes": 15352,
+  "num_edges": 23054,
+  "num_communities": 3630,
+  "top_connected": [
+    [
+      "SAL11226",
+      18,
+      "Dean Park"
+    ],
+    [
+      "SAL10862",
+      16,
+      "Cawdor (NSW)"
+    ],
+    [
+      "SAL10234",
+      15,
+      "Baw Baw (NSW)"
+    ],
+    [
+      "SAL10391",
+      15,
+      "Blackett"
+    ],
+    [
+      "SAL11334",
+      15,
+      "Duranbah"
+    ],
+    [
+      "SAL10016",
+      14,
+      "Adamstown"
+    ],
+    [
+      "SAL11694",
+      14,
+      "Gocup"
+    ],
+    [
+      "SAL10258",
+      13,
+      "Belford"
+    ],
+    [
+      "SAL10309",
+      13,
+      "Berowra Heights"
+    ],
+    [
+      "SAL10706",
+      13,
+      "Burrell Creek"
+    ],
+    [
+      "SAL10798",
+      13,
+      "Canyonleigh"
+    ],
+    [
+      "SAL11102",
+      13,
+      "Crabbes Creek"
+    ],
+    [
+      "SAL11395",
+      13,
+      "Elderslie (Singleton - NSW)"
+    ],
+    [
+      "SAL11473",
+      13,
+      "Evans Plains"
+    ],
+    [
+      "SAL11709",
+      13,
+      "Goodwood Island"
+    ],
+    [
+      "SAL11888",
+      13,
+      "Hazelbrook"
+    ],
+    [
+      "SAL10021",
+      12,
+      "Agnes Banks"
+    ],
+    [
+      "SAL10064",
+      12,
+      "Appin (NSW)"
+    ],
+    [
+      "SAL10074",
+      12,
+      "Arcadia Vale"
+    ],
+    [
+      "SAL10384",
+      12,
+      "Black Hill (NSW)"
+    ]
+  ]
+}
