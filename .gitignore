@@ -1,1 +1,31 @@
 .DS_Store
+
+# Analysis output files (too large for git)
+spatial_analysis_log.txt
+spatial_analysis_results/
+spatial_visualizations/
+
+# Downloaded shapefiles (can be re-downloaded)
+shapefiles/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
