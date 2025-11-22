@@ -1,0 +1,6 @@
+Density_Class,Num_Areas,Total_Population,Total_Professionals,Avg_Opportunity_Score,Avg_Demand_Gap
+Average (300-399),598,6362897,2202409,30.5,21.71
+Below Average (<300),1007,10807676,2367783,25.44,13.92
+Exceptional (700+),75,889261,689660,45.92,31.81
+High (400-499),332,3564490,1598853,34.34,26.59
+Very High (500-699),343,3796818,2203758,39.19,31.97
