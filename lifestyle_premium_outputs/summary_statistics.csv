@@ -1,0 +1,12 @@
+Metric,Value
+Total SA1s Analyzed,61844.0
+Populated SA1s (pop >= 50),59415.0
+Coastal SA1s (<50km from beach),1010.0
+Highly Coastal (<10km from beach),0.0
+Metropolitan SA1s,0.0
+Mean Lifestyle Premium Index,13.22
+Median Lifestyle Premium Index,13.0
+Mean Income ($/week),844.17
+Median Income ($/week),807.0
+Mean Beach Distance (km),335.45
+Mean School Distance (km),151.75
