@@ -1,1 +1,3 @@
 .DS_Store
+migration_analysis/__pycache__/
+migration_analysis/cache/
