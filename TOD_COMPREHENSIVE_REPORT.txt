@@ -1,0 +1,417 @@
+====================================================================================================
+TRANSIT-ORIENTED DEVELOPMENT (TOD) ANALYSIS - COMPREHENSIVE SUMMARY REPORT
+====================================================================================================
+
+Analysis Date: 2025-11-22
+Dataset: 2021 Australian Census - General Community Profile
+Geographic Coverage: All 61,844 SA1 areas across Australia
+
+====================================================================================================
+EXECUTIVE SUMMARY
+====================================================================================================
+
+This comprehensive analysis identifies optimal locations for transit-oriented development
+(TOD) and transit infrastructure investment across Australia using 2021 Census data.
+
+Key Metrics:
+  • Total SA1 Areas Analyzed: 61,844
+  • Total Commuters: 7,879,239
+  • Overall Car Dependency: 83.7%
+  • Public Transit Usage: 6.4%
+  • Active Transport Usage: 4.9%
+
+Critical Findings:
+  • 31,060 SA1 areas (50.2%) have >90% car dependency
+  • 3,837,704 Australians are highly car-dependent commuters
+  • Top 1,000 TOD opportunities represent 264,984 commuters
+  • Identified 67 critical commute pain points affecting 41,950 commuters
+
+====================================================================================================
+1. NATIONAL MODAL SPLIT ANALYSIS
+====================================================================================================
+
+Total Commuters: 7,879,239
+
+Mode Share:
+  • Private Vehicle (Car/Motorcycle):   86.5%  (6,811,913)
+  • Public Transit (Train/Bus/Ferry):    7.1%  (556,689)
+  • Active Transport (Walk/Bike):        4.6%  (360,948)
+
+Comparison to Global Best Practice:
+  • Australia Car Mode Share: 86.5%
+  • Copenhagen Target: 50% bike/transit
+  • Singapore: 70% public transit
+  • Amsterdam: 60% bike/transit
+
+Australia has significant opportunity to improve sustainable transport usage.
+
+====================================================================================================
+2. STATE/TERRITORY BREAKDOWN
+====================================================================================================
+
+Ranking by Car Dependency (Highest to Lowest):
+
+  1. 5        - 85.9% car dependency, 5.2% transit usage, 646,976 commuters
+  2. 4        - 85.9% car dependency, 4.4% transit usage, 1,770,425 commuters
+  3. 6        - 85.6% car dependency, 2.9% transit usage, 198,417 commuters
+  4. 7        - 85.3% car dependency, 6.2% transit usage, 1,929,607 commuters
+  5. 1        - 82.1% car dependency, 7.5% transit usage, 2,008,712 commuters
+  6. 8        - 80.8% car dependency, 9.0% transit usage, 1,042,707 commuters
+  7. 0        - 79.4% car dependency, 5.9% transit usage, 190,331 commuters
+  8. 2        - 69.9% car dependency, 2.2% transit usage, 90,168 commuters
+  9. 3        - 48.2% car dependency, 4.7% transit usage, 1,896 commuters
+
+Ranking by TOD Opportunity (Highest Avg TOD Score):
+
+  1. 0        - TOD Score: 74.4/100, Car Dep: 79.4%, SA1 Count: 1,229
+  2. 8        - TOD Score: 70.8/100, Car Dep: 80.8%, SA1 Count: 6,352
+  3. 5        - TOD Score: 70.7/100, Car Dep: 85.9%, SA1 Count: 4,329
+  4. 4        - TOD Score: 69.5/100, Car Dep: 85.9%, SA1 Count: 12,549
+  5. 7        - TOD Score: 68.0/100, Car Dep: 85.3%, SA1 Count: 15,482
+  6. 6        - TOD Score: 66.4/100, Car Dep: 85.6%, SA1 Count: 1,482
+  7. 2        - TOD Score: 61.4/100, Car Dep: 69.9%, SA1 Count: 649
+  8. 1        - TOD Score: 60.5/100, Car Dep: 82.1%, SA1 Count: 19,750
+  9. 3        - TOD Score: 43.5/100, Car Dep: 48.2%, SA1 Count: 22
+
+====================================================================================================
+3. TOP TOD OPPORTUNITIES
+====================================================================================================
+
+Identified 1,000 high-potential TOD locations based on:
+  • Car dependency (40% weight)
+  • Commuter volume (30% weight)
+  • Employment proximity (20% weight)
+  • Transit gap (10% weight)
+
+Top 10 SA1 Areas for TOD Investment:
+
+
+  #1. SA1 Code: 70101100901
+      TOD Score:          97.1/100
+      Car Dependency:     95.9%
+      Public Transit:     1.0%
+      Total Commuters:    292
+      SA2 Employment:     1,856
+
+
+  #2. SA1 Code: 10102101209
+      TOD Score:          96.9/100
+      Car Dependency:     97.0%
+      Public Transit:     1.4%
+      Total Commuters:    366
+      SA2 Employment:     7,404
+
+
+  #3. SA1 Code: 70101100903
+      TOD Score:          96.5/100
+      Car Dependency:     93.8%
+      Public Transit:     1.1%
+      Total Commuters:    368
+      SA2 Employment:     1,856
+
+
+  #4. SA1 Code: 10102101232
+      TOD Score:          96.4/100
+      Car Dependency:     98.4%
+      Public Transit:     0.0%
+      Total Commuters:    247
+      SA2 Employment:     7,404
+
+
+  #5. SA1 Code: 10102161109
+      TOD Score:          96.4/100
+      Car Dependency:     100.0%
+      Public Transit:     0.0%
+      Total Commuters:    239
+      SA2 Employment:     9,026
+
+
+  #6. SA1 Code: 70101100905
+      TOD Score:          96.3/100
+      Car Dependency:     94.4%
+      Public Transit:     1.0%
+      Total Commuters:    286
+      SA2 Employment:     1,856
+
+
+  #7. SA1 Code: 80104103604
+      TOD Score:          96.2/100
+      Car Dependency:     97.2%
+      Public Transit:     0.0%
+      Total Commuters:    252
+      SA2 Employment:     3,770
+
+
+  #8. SA1 Code: 10102101222
+      TOD Score:          96.2/100
+      Car Dependency:     98.3%
+      Public Transit:     0.0%
+      Total Commuters:    240
+      SA2 Employment:     7,404
+
+
+  #9. SA1 Code: 10102101224
+      TOD Score:          95.9/100
+      Car Dependency:     97.6%
+      Public Transit:     1.2%
+      Total Commuters:    248
+      SA2 Employment:     7,404
+
+
+  #10. SA1 Code: 10102101214
+      TOD Score:          95.8/100
+      Car Dependency:     97.9%
+      Public Transit:     0.0%
+      Total Commuters:    236
+      SA2 Employment:     7,404
+
+====================================================================================================
+4. COMMUTE PAIN POINTS (Critical Intervention Areas)
+====================================================================================================
+
+Identified 67 critical pain point areas with:
+  • >75% car dependency
+  • >500 commuters
+  • <10% public transit usage
+
+Total Affected Commuters: 41,950
+
+These areas require immediate attention for transit infrastructure investment.
+
+Top 10 Pain Point Areas:
+
+  1. SA1 30805153303: 1,189 commuters, 97.1% car dependent, 1.2% transit
+  2. SA1 11303126901: 826 commuters, 97.9% car dependent, 0.0% transit
+  3. SA1 21603141622: 773 commuters, 98.4% car dependent, 0.0% transit
+  4. SA1 51003127229: 1,097 commuters, 92.9% car dependent, 2.3% transit
+  5. SA1 21603141645: 780 commuters, 97.1% car dependent, 0.4% transit
+  6. SA1 31601141516: 905 commuters, 93.8% car dependent, 0.3% transit
+  7. SA1 11301125616: 703 commuters, 97.0% car dependent, 0.0% transit
+  8. SA1 11004120554: 742 commuters, 95.6% car dependent, 0.4% transit
+  9. SA1 31201134102: 595 commuters, 98.7% car dependent, 0.8% transit
+  10. SA1 31601141519: 686 commuters, 96.2% car dependent, 0.4% transit
+
+====================================================================================================
+5. POTENTIAL TRANSIT CORRIDORS
+====================================================================================================
+
+Identified 3,074 SA1 areas forming potential transit corridors:
+  • High commuter volume (top 25% percentile)
+  • High car dependency (>80%)
+  • Proximity to employment centers (top 25% percentile)
+
+Total Corridor Commuters: 673,389
+Average Car Dependency in Corridors: 90.8%
+
+These corridors represent the highest-impact routes for new transit infrastructure.
+
+====================================================================================================
+6. HUB-AND-SPOKE NETWORK OPPORTUNITIES
+====================================================================================================
+
+Analyzed 17 major employment centers as potential transit hubs.
+
+Top 10 Hub Opportunities (by potential modal shift):
+
+
+  #1. SA2 Code: 203021487.0
+      Employment:             12,624.0
+      Connected SA1 Areas:    53
+      Total Spoke Commuters:  8,412
+      Car Commuters:          8,053
+      Potential New Riders:   1,610 (20% modal shift)
+      Avg TOD Score:          80.4/100
+
+
+  #2. SA2 Code: 214011374.0
+      Employment:             13,253.0
+      Connected SA1 Areas:    48
+      Total Spoke Commuters:  8,346
+      Car Commuters:          8,039
+      Potential New Riders:   1,607 (20% modal shift)
+      Avg TOD Score:          84.6/100
+
+
+  #3. SA2 Code: 507051313.0
+      Employment:             12,821.0
+      Connected SA1 Areas:    47
+      Total Spoke Commuters:  9,499
+      Car Commuters:          8,033
+      Potential New Riders:   1,606 (20% modal shift)
+      Avg TOD Score:          75.7/100
+
+
+  #4. SA2 Code: 212011552.0
+      Employment:             12,560.0
+      Connected SA1 Areas:    46
+      Total Spoke Commuters:  8,283
+      Car Commuters:          7,625
+      Potential New Riders:   1,525 (20% modal shift)
+      Avg TOD Score:          79.2/100
+
+
+  #5. SA2 Code: 212011546.0
+      Employment:             12,745.0
+      Connected SA1 Areas:    44
+      Total Spoke Commuters:  7,951
+      Car Commuters:          7,391
+      Potential New Riders:   1,478 (20% modal shift)
+      Avg TOD Score:          84.4/100
+
+
+  #6. SA2 Code: 404031107.0
+      Employment:             14,282.0
+      Connected SA1 Areas:    38
+      Total Spoke Commuters:  8,449
+      Car Commuters:          7,054
+      Potential New Riders:   1,410 (20% modal shift)
+      Avg TOD Score:          84.8/100
+
+
+  #7. SA2 Code: 213051583.0
+      Employment:             12,922.0
+      Connected SA1 Areas:    43
+      Total Spoke Commuters:  7,515
+      Car Commuters:          6,471
+      Potential New Riders:   1,294 (20% modal shift)
+      Avg TOD Score:          72.7/100
+
+
+  #8. SA2 Code: 203031053.0
+      Employment:             12,385.0
+      Connected SA1 Areas:    41
+      Total Spoke Commuters:  6,689
+      Car Commuters:          6,321
+      Potential New Riders:   1,264 (20% modal shift)
+      Avg TOD Score:          79.5/100
+
+
+  #9. SA2 Code: 314011386.0
+      Employment:             13,299.0
+      Connected SA1 Areas:    42
+      Total Spoke Commuters:  7,087
+      Car Commuters:          6,191
+      Potential New Riders:   1,238 (20% modal shift)
+      Avg TOD Score:          81.5/100
+
+
+  #10. SA2 Code: 504011045.0
+      Employment:             13,126.0
+      Connected SA1 Areas:    39
+      Total Spoke Commuters:  7,552
+      Car Commuters:          6,192
+      Potential New Riders:   1,238 (20% modal shift)
+      Avg TOD Score:          81.2/100
+
+====================================================================================================
+7. INVESTMENT PRIORITY FRAMEWORK
+====================================================================================================
+
+Three-tier priority system for transit infrastructure investment:
+
+PRIORITY 1: High TOD Score + High Volume
+  • SA1 Areas: 500
+  • Total Commuters: 144,315
+  • Avg TOD Score: 92.1/100
+  • Avg Car Dependency: 94.5%
+  • Rationale: Maximum impact per dollar invested
+
+PRIORITY 2: Near Employment Centers + Low Transit
+  • SA1 Areas: 500
+  • Total Commuters: 130,464
+  • Avg Employment Density: 57.6%
+  • Avg Car Dependency: 87.0%
+  • Rationale: Job access and economic productivity
+
+PRIORITY 3: Multimodal Potential
+  • SA1 Areas: 60
+  • Total Commuters: 25,138
+  • Avg Public Transit: 11.5%
+  • Avg Active Transport: 8.7%
+  • Rationale: Existing sustainable transport culture
+
+TOTAL PRIORITY AREA COVERAGE:
+  • Combined SA1 Areas: 841
+  • Estimated 20% Modal Shift Impact: ~100,000 new transit users
+
+====================================================================================================
+8. ECONOMIC IMPACT ANALYSIS
+====================================================================================================
+
+Travel Time Savings (Top 1,000 TOD Opportunities with 20% modal shift):
+
+Assumptions:
+  • Current car commute: 35 minutes average
+  • Improved transit commute: 30 minutes average
+  • Time savings: 5 minutes per trip, 10 minutes daily (round trip)
+  • Working days per year: 230
+  • Economic value: $25/hour
+
+Results:
+  • Daily time saved: 54,004 minutes
+  • Annual time saved: 207,015 hours
+  • Economic value: $5,175,383
+
+Additional Benefits (not quantified):
+  • Reduced congestion
+  • Lower carbon emissions
+  • Improved air quality
+  • Reduced parking demand
+  • Enhanced property values near transit
+  • Improved equity and accessibility
+
+====================================================================================================
+9. STRATEGIC RECOMMENDATIONS
+====================================================================================================
+
+Based on this comprehensive analysis, we recommend:
+
+SHORT-TERM (0-2 years):
+  1. Focus on Priority 1 areas with TOD scores >85
+  2. Implement express bus services on identified corridors
+  3. Improve active transport infrastructure in multimodal areas
+  4. Launch pilot programs in top 10 TOD opportunity areas
+
+MEDIUM-TERM (2-5 years):
+  5. Develop BRT (Bus Rapid Transit) on highest-volume corridors
+  6. Implement hub-and-spoke networks at major employment centers
+  7. Zone for higher density near transit stops
+  8. Create park-and-ride facilities at key interchange points
+
+LONG-TERM (5-15 years):
+  9. Build rail transit in highest-priority corridors
+  10. Implement comprehensive TOD policies and zoning reforms
+  11. Expand networks to Priority 2 employment center areas
+  12. Achieve 30% public transit mode share nationally
+
+POLICY ENABLERS:
+  • Transit-oriented zoning reforms
+  • Parking pricing and management
+  • Complete streets policies
+  • Dedicated bus lanes and signal priority
+  • Integration of fares and schedules
+  • First/last-mile solutions (bike share, microtransit)
+
+====================================================================================================
+10. DATA FILES GENERATED
+====================================================================================================
+
+Generated Files:
+
+  • tod_complete_sa1_analysis.csv                 (61,844 records) - Complete dataset for all SA1 areas
+  • tod_top_1000_opportunities.csv                (1,000 records) - Highest TOD scoring areas
+  • tod_commute_pain_points.csv                   (67 records) - Critical intervention areas
+  • tod_high_car_dependency.csv                   (31,060 records) - Areas with >90% car dependency
+  • tod_multimodal_opportunities.csv              (313 records) - Areas near employment with low transit
+  • tod_transit_corridors.csv                     (3,074 records) - Potential transit corridor routes
+  • tod_state_level_analysis.csv                  ( 9 records) - State/territory summary statistics
+  • tod_hub_spoke_analysis.csv                    (17 records) - Hub-and-spoke network analysis
+  • tod_travel_time_savings.csv                   (100 records) - Economic impact calculations
+  • tod_priority_1_high_score_volume.csv          (500 records) - Priority 1 investment areas
+  • tod_priority_2_employment_centers.csv         (500 records) - Priority 2 investment areas
+  • tod_priority_3_multimodal.csv                 (60 records) - Priority 3 investment areas
+  • tod_summary_statistics.csv                    (   Summary) - Overall statistics
+
+====================================================================================================
+END OF REPORT
+====================================================================================================
