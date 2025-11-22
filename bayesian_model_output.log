@@ -1,0 +1,99 @@
+Warning: geopandas not available, using coordinate-based neighbors
+
+
+################################################################################
+#                                                                              #
+#                     HIERARCHICAL BAYESIAN SPATIAL MODEL                      #
+#                  Australian Census 2021 - Full SA1 Analysis                  #
+#                       61,844 Statistical Areas Level 1                       #
+#                                                                              #
+################################################################################
+
+
+Initialized model with data directory: 2021_GCP_all_for_AUS_short-header/2021 Census GCP All Geographies for AUS
+
+================================================================================
+STEP 1: Loading SA1 Data for 3 tables
+================================================================================
+Loading G01... ✓ (61,844 rows, 109 columns)
+Loading G02... ✓ (61,844 rows, 9 columns)
+Loading G43... ✓ (61,844 rows, 67 columns)
+
+Merging 3 tables on SA1_CODE_2021...
+  After merge 1: 61,844 rows
+  After merge 2: 61,844 rows
+
+✓ Final merged dataset: 61,844 SA1 areas × 183 variables
+
+Creating derived variables...
+✓ Created derived variables: pct_yr12_complete, employment_rate, median_income, pct_working_age
+
+================================================================================
+STEP 2: Extracting Hierarchical Geographic Structure
+================================================================================
+
+Hierarchical structure:
+  SA1 areas: 61,844
+  SA2 areas: 2,472
+  SA3 areas: 358
+  SA4 areas: 107
+
+Nesting ratios:
+  Avg SA1 per SA2: 25.0
+  Avg SA2 per SA3: 6.9
+  Avg SA3 per SA4: 3.3
+
+================================================================================
+STEP 3: Building Spatial Weights Matrix (K-Nearest Neighbors)
+================================================================================
+Generating pseudo-coordinates for 61,844 SA1 areas...
+Building KD-tree for efficient neighbor search...
+Finding 8 nearest neighbors for each area...
+Constructing sparse adjacency matrix (61,844 × 61,844)...
+
+✓ Spatial weights matrix created:
+  Shape: (61844, 61844)
+  Non-zero entries: 539,242
+  Sparsity: 99.99%
+  Avg neighbors per area: 8.7
+
+================================================================================
+STEP 4: Building Hierarchical CAR Spatial Model
+================================================================================
+
+Model configuration:
+  Outcome variable: median_income
+  Predictors: ['pct_yr12_complete', 'pct_working_age', 'employment_rate']
+  Sample size: 61,844 SA1 areas
+  Hierarchy levels:
+    - SA1: 61,844
+    - SA2: 2,472
+    - SA3: 358
+    - SA4: 107
+
+MCMC configuration:
+  Samples: 2,000
+  Tune: 1,000
+  Chains: 2
+
+Constructing Bayesian model...
+
+================================================================================
+STEP 5: Running MCMC Sampling
+================================================================================
+
+Starting MCMC sampling...
+This may take considerable time for 61,844 areas...
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (2 chains in 2 jobs)
+NUTS: [β, σ_sa4, α_sa4, σ_sa3, α_sa3, σ_sa2, α_sa2, σ_spatial, ρ, φ, σ]
+                                                                                
+                              Step      Grad      Sampli…                       
+  Progre…   Draws   Diverg…   size      evals     Speed     Elapsed   Remaini…  
+ ────────────────────────────────────────────────────────────────────────────── 
+  ━━━━━━━   3000    0         0.054     63        6.19      0:08:04   0:00:00   
+                                                  draws/s                       
+  ━━━━━━━   3000    0         0.040     63        5.86      0:08:31   0:00:00   
+                                                  draws/s                       
+                                                                                
+Sampling 2 chains for 1_000 tune and 2_000 draw iterations (2_000 + 4_000 draws total) took 512 seconds.
