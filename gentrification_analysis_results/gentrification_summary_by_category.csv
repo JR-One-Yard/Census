@@ -1,0 +1,6 @@
+risk_category,Count,Avg_Risk_Score,Median_Income,Avg_Year12_Pct,Avg_Young_Prof_Pct,Avg_Edu_Income_Mismatch
+Very Low,15461,18.31,694.0,43.26,17.9,-16.01
+Low,15461,29.68,816.0,55.33,23.32,-9.97
+Moderate,15461,40.71,858.0,63.68,28.32,0.45
+High,9276,52.91,885.0,72.69,34.18,15.42
+Very High,6185,66.27,819.0,80.98,43.43,33.09

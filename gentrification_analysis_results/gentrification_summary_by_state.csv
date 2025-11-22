@@ -1,0 +1,10 @@
+state,State_Name,SA1_Count,Total_Population,Avg_Risk_Score,Median_Income,Avg_Year12_Pct,Avg_Tertiary_Pct,Avg_Young_Prof_Pct,Avg_Edu_Income_Mismatch,Avg_Overseas_Born_Pct
+ACT,Australian Capital Territory,1164,454346,43.7,1194.0,77.04,0.0,31.7,-5.7,27.99
+NSW,New South Wales,19326,8072460,37.02,811.0,60.13,0.0,26.75,-0.75,27.71
+NT,Northern Territory,622,232565,37.21,1037.0,51.11,0.0,32.73,-22.5,19.78
+OT,Other Territories,18,4791,37.6,782.0,57.98,0.0,25.41,-4.44,30.97
+QLD,Queensland,12281,5156235,34.95,795.0,58.39,0.0,26.14,-2.0,21.82
+SA,South Australia,4236,1781541,35.16,755.5,54.88,0.0,25.08,-0.64,22.78
+TAS,Tasmania,1439,557573,30.34,706.0,47.68,0.0,24.67,-7.18,14.74
+VIC,Victoria,15232,6503324,40.9,804.0,63.05,0.0,28.27,5.66,28.96
+WA,Western Australia,6169,2659794,37.1,844.0,59.21,0.0,27.31,-5.86,30.95
