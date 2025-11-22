@@ -46,48 +46,29 @@ print("PART 1: VOLUNTEER RATE - COMMUNITY ENGAGEMENT PROXY")
 print("=" * 120)
 print()
 
-# Load G58/G59 - Unpaid work (volunteering)
-# Actually, let me check what tables have volunteer data
-# It might be in G59 - Unpaid domestic work, unpaid assistance, volunteer work
-
+# Load G23 - Voluntary work for an organisation or group by age by sex
 try:
-    df_volunteer = pd.read_csv(f"{DATA_DIR}2021Census_G59A_AUST_SAL.csv")
+    df_volunteer = pd.read_csv(f"{DATA_DIR}2021Census_G23_AUST_SAL.csv")
     df_volunteer = df_volunteer[df_volunteer['SAL_CODE_2021'].isin(sydney_sal_codes)]
 
     print("[1/3] Analyzing volunteer rates...")
 
-    # Find volunteer columns - look for unpaid work/volunteer in column names
-    volunteer_cols = [col for col in df_volunteer.columns if 'Vol' in col or 'volunteer' in col.lower()]
+    # G23 has P_Tot_Volunteer (total persons who volunteer) and P_Tot_Tot (total persons 15+)
+    if 'P_Tot_Volunteer' in df_volunteer.columns and 'P_Tot_Tot' in df_volunteer.columns:
+        df_volunteer['Volunteer_Pct'] = (df_volunteer['P_Tot_Volunteer'] / df_volunteer['P_Tot_Tot'] * 100).fillna(0)
 
-    if not volunteer_cols:
-        # Try broader search
-        print("   Volunteer columns:")
-        print("   ", df_volunteer.columns.tolist()[:20])
-
-        # G59A likely has unpaid activities
-        # Look for persons doing unpaid work
-        unpaid_cols = [col for col in df_volunteer.columns if 'P_' in col and 'Did_unpaid' in col]
-        total_col = [col for col in df_volunteer.columns if col.startswith('P_Tot_')]
-
-        if unpaid_cols and total_col:
-            # Calculate % doing any unpaid work (proxy for volunteering)
-            df_volunteer['Unpaid_Work_Total'] = df_volunteer[unpaid_cols[0]]
-            df_volunteer['Total_Persons'] = df_volunteer[total_col[0]]
-            df_volunteer['Volunteer_Pct'] = (df_volunteer['Unpaid_Work_Total'] / df_volunteer['Total_Persons'] * 100).fillna(0)
-
-            volunteer_metrics = df_volunteer[['SAL_CODE_2021', 'Volunteer_Pct']].copy()
-            print(f"   ✓ Calculated volunteer rates for {len(volunteer_metrics):,} suburbs")
-            has_volunteer_data = True
-        else:
-            print("   ⚠ Could not find volunteer/unpaid work columns")
-            volunteer_metrics = pd.DataFrame({
-                'SAL_CODE_2021': list(sydney_sal_codes),
-                'Volunteer_Pct': 50.0
-            })
-            has_volunteer_data = False
-    else:
-        print(f"   Found {len(volunteer_cols)} volunteer-related columns")
+        volunteer_metrics = df_volunteer[['SAL_CODE_2021', 'Volunteer_Pct', 'P_Tot_Volunteer', 'P_Tot_Tot']].copy()
+        print(f"   ✓ Calculated volunteer rates for {len(volunteer_metrics):,} suburbs")
+        print(f"   Volunteer rate range: {volunteer_metrics['Volunteer_Pct'].min():.1f}% to {volunteer_metrics['Volunteer_Pct'].max():.1f}%")
+        print(f"   Median volunteer rate: {volunteer_metrics['Volunteer_Pct'].median():.1f}%")
         has_volunteer_data = True
+    else:
+        print("   ⚠ Could not find volunteer columns in G23")
+        volunteer_metrics = pd.DataFrame({
+            'SAL_CODE_2021': list(sydney_sal_codes),
+            'Volunteer_Pct': 50.0
+        })
+        has_volunteer_data = False
 
 except Exception as e:
     print(f"   ⚠ Could not load volunteer data: {e}")
