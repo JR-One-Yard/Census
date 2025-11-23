@@ -1,0 +1,49 @@
+================================================================================
+ENHANCEMENT 5: MACHINE LEARNING PREDICTIVE MODELS
+MAXIMUM COMPUTE INTENSITY - Training Multiple Models
+================================================================================
+
+STEP 1: Loading comprehensive dataset from all enhancements...
+--------------------------------------------------------------------------------
+Loaded 60,487 SA1 areas with comprehensive features
+Total features available: 44
+
+STEP 2: Preparing features for machine learning...
+--------------------------------------------------------------------------------
+Feature matrix shape: (60487, 35)
+Number of features: 35
+
+STEP 3: Splitting data into train/test sets...
+--------------------------------------------------------------------------------
+Training set size: 42,340
+Test set size: 18,147
+
+Traceback (most recent call last):
+  File "/home/user/Census/enhancement_5_machine_learning.py", line 164, in <module>
+    X_train_scaled = scaler.fit_transform(X_train)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/base.py", line 894, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/preprocessing/_data.py", line 907, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/preprocessing/_data.py", line 943, in partial_fit
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py", line 1105, in check_array
+    _assert_all_finite(
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input X contains infinity or a value too large for dtype('float64').
