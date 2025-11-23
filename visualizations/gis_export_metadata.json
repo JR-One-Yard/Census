@@ -1,0 +1,51 @@
+{
+  "title": "TOD Analysis - GIS Export",
+  "date": "2025-11-22",
+  "source": "2021 Australian Census",
+  "geographic_levels": {
+    "SA1": "Statistical Area Level 1 (finest granularity)",
+    "SA2": "Statistical Area Level 2 (employment centers)",
+    "SA3": "Statistical Area Level 3 (regional context)"
+  },
+  "files": {
+    "gis_export_complete_sa1.csv": {
+      "description": "Complete SA1 dataset with categories",
+      "records": 61844,
+      "key_field": "SA1_CODE_2021"
+    },
+    "gis_export_sa2_aggregated.csv": {
+      "description": "SA2-level aggregation (easier to visualize)",
+      "records": 2472,
+      "key_field": "SA2_CODE"
+    },
+    "gis_export_priority_areas.csv": {
+      "description": "Priority 1 and Priority 2 areas only",
+      "records": 4796,
+      "key_field": "SA1_CODE_2021"
+    },
+    "gis_export_top_1000_enhanced.csv": {
+      "description": "Top 1000 opportunities with impact metrics",
+      "records": 1000,
+      "key_field": "SA1_CODE_2021"
+    }
+  },
+  "key_fields": {
+    "tod_score": "Transit-Oriented Development score (0-100)",
+    "car_dependency_ratio": "Proportion of commuters using cars (0-1)",
+    "public_transit_ratio": "Proportion using public transit (0-1)",
+    "tod_category": "Categorical TOD score (Low/Medium/High/Very High/Extreme)",
+    "car_dep_category": "Categorical car dependency level",
+    "investment_priority": "Investment priority tier (Priority 1/2 or Not Priority)"
+  },
+  "how_to_use": [
+    "1. Import CSV into QGIS or ArcGIS",
+    "2. Join to ABS SA1/SA2 shapefiles using SA1_CODE_2021 or SA2_CODE",
+    "3. Style by tod_category or investment_priority fields",
+    "4. Filter to Priority 1/2 areas for focused analysis"
+  ],
+  "recommended_shapefiles": [
+    "ABS SA1 2021 boundaries",
+    "ABS SA2 2021 boundaries",
+    "ABS SA3 2021 boundaries"
+  ]
+}
