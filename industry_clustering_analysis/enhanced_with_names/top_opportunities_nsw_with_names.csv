@@ -1,0 +1,11 @@
+SA2_Code,Suburb_Name,Population,Professionals,Prof_Density,Opp_Score,Demand_Gap,Is_Cluster,Is_Emerging
+117031330,Erskineville - Alexandria,19126,18113,946.99,60.43,31.89,True,False
+118011345,Paddington - Moore Park,14793,12594,851.29,53.44,46.3,True,True
+121031408,Lindfield - Roseville,24599,15629,635.33,52.68,46.94,True,False
+121041414,Crows Nest - Waverton,17916,15144,845.23,52.57,26.98,True,False
+122011419,Manly - Fairlight,22438,17080,761.17,52.52,22.1,True,False
+117021327,Petersham - Stanmore,19898,14446,725.97,52.1,40.14,True,False
+118021651,Coogee - Clovelly,19521,15361,786.86,51.53,25.52,True,False
+120021675,Leichhardt,17532,12423,708.55,51.2,46.58,True,False
+118011340,Bondi Beach - North Bondi,20705,16033,774.32,51.07,21.61,True,False
+117031640,Newtown (NSW),14667,11842,807.34,50.99,42.78,True,False

@@ -1,0 +1,11 @@
+SA2_Code,Suburb_Name,Population,Professionals,Prof_Density,Opp_Score,Demand_Gap,Is_Cluster,Is_Emerging
+503021042,Subiaco - Shenton Park,17527,11852,676.18,46.95,39.94,True,False
+504011045,Bayswater - Embleton - Bedford,24523,11647,474.92,46.87,47.81,True,False
+505021089,Karrinyup - Gwelup - Carine,22602,11330,501.26,46.5,48.21,True,False
+503011035,Nedlands - Dalkeith - Crawley,18936,11142,588.37,45.62,45.39,True,False
+503021038,Mount Hawthorn - Leederville,11872,8184,689.3,45.46,44.54,True,False
+503021039,Mount Lawley - Inglewood,16934,10505,620.31,45.31,40.53,True,False
+505021088,Innaloo - Doubleview,18468,9856,533.65,45.03,44.86,True,False
+505021092,Scarborough,17552,10069,573.63,44.97,41.89,True,False
+506071147,South Perth - Kensington,17226,10393,603.3,44.78,40.8,True,False
+507021165,Fremantle,16720,10018,599.13,43.86,39.43,True,False

@@ -1,0 +1,11 @@
+SA2_Code,Suburb_Name,Population,Professionals,Prof_Density,Opp_Score,Demand_Gap,Is_Cluster,Is_Emerging
+314011386,The Hills District,24313,11352,466.89,47.2,47.91,True,False
+305041135,Paddington - Milton,12197,9236,757.17,46.03,41.04,True,False
+304041103,The Gap,17099,9694,566.9,45.83,46.79,True,False
+305031128,Newstead - Bowen Hills,18016,14789,820.84,45.25,0.21,True,False
+305041132,Ashgrove,13716,8792,640.96,44.49,42.24,True,False
+303011047,Camp Hill,12145,7738,637.08,44.42,43.08,True,False
+305041134,Bardon,10343,7167,692.87,44.23,42.87,True,False
+303021053,Coorparoo,17810,11156,626.35,43.58,31.67,True,False
+305021117,Morningside - Seven Hills,14308,8647,604.3,43.03,38.4,True,False
+303041071,Tarragindi,10944,6729,614.8,42.01,40.19,True,False
