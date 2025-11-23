@@ -1,0 +1,7 @@
+Scenario,Budget ($B),Dwellings,SA1s Receiving,Households Assisted,Cost per HH ($),Stress Reduction (SA1s),Gap Closed (%)
+Scenario 1: Baseline (No Investment),0.0,0,0,0,0.0,0,0.0
+Scenario 2: Budget-Constrained ($2B),2.0,35714,719,35714,56000.44800358403,54,30.699801432095793
+Scenario 3: Moderate Investment ($5B),5.0,4500,223,4500,1111111.111111111,7,3.8682059260914787
+Scenario 4: Major Investment ($13B),13.0,232121,5388,232121,56005.27311186838,351,199.53151728228448
+Scenario 5: Accessibility-Focused ($5B),5.0,300,6,300,16666666.666666666,1,0.2578803950727653
+Scenario 6: Equity-Focused ($5B),5.0,8600,172,8600,581395.3488372093,13,7.3925713254192695
