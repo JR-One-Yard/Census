@@ -1,0 +1,136 @@
+
+################################################################################
+#                                                                              #
+#            HIERARCHICAL BAYESIAN SPATIAL MODEL - RESULTS ANALYSIS            #
+#                                                                              #
+################################################################################
+
+Loading results...
+/home/user/Census/analyze_bayesian_results.py:43: FutureWarning: The return type of `Dataset.dims` will be changed to return a set of dimension names in future, in order to be more consistent with `DataArray.dims`. To access a mapping from dimension names to lengths, please use `Dataset.sizes`.
+  print(f"✓ Loaded trace with {trace.posterior.dims['draw']} draws × {trace.posterior.dims['chain']} chains")
+✓ Loaded trace with 2000 draws × 2 chains
+
+================================================================================
+FIXED EFFECTS ANALYSIS
+================================================================================
+
+Posterior summaries:
+--------------------------------------------------------------------------------
+Variable                             Mean         SD                    95% CI     Prob>0
+--------------------------------------------------------------------------------
+pct_yr12_complete                  0.1609     0.0044 [ 0.1523,  0.1695]      1.000
+pct_working_age                    0.0303     0.0035 [ 0.0235,  0.0372]      1.000
+employment_rate                    0.4494     0.0036 [ 0.4423,  0.4565]      1.000
+
+✓ Forest plot saved: fixed_effects_forest.png
+
+================================================================================
+SPATIAL AUTOCORRELATION ANALYSIS
+================================================================================
+
+Spatial autocorrelation parameter (ρ):
+  Mean: 0.5075
+  Median: 0.4953
+  SD: 0.2413
+  95% CI: [0.0866, 0.9693]
+
+  Interpretation: MODERATE spatial spillovers
+✓ Plot saved: spatial_autocorrelation.png
+
+================================================================================
+VARIANCE DECOMPOSITION
+================================================================================
+
+Variance Partition Coefficients (% of total variance):
+------------------------------------------------------------
+Level                         Mean %                    95% CI
+------------------------------------------------------------
+SA4 (National)                 51.00% [  40.77%,   61.10%]
+SA3 (Regional)                  6.83% [   4.84%,    9.42%]
+SA2 (District)                  9.91% [   7.75%,   12.15%]
+Spatial                         1.95% [   1.10%,    2.92%]
+Residual                       30.31% [  24.20%,   36.59%]
+
+✓ Plot saved: variance_decomposition.png
+
+================================================================================
+CONVERGENCE DIAGNOSTICS
+================================================================================
+
+R-hat statistics (should be < 1.01):
+------------------------------------------------------------
+  β               max=1.0030, mean=1.0022
+  ρ               1.0419
+  σ_sa4           1.0015
+  σ_sa3           1.0005
+  σ_sa2           1.0006
+  σ_spatial       1.9075
+  σ               1.0693
+
+Effective Sample Size (should be > 400):
+------------------------------------------------------------
+Variable               Bulk ESS        Tail ESS
+------------------------------------------------------------
+β                           877            1656
+ρ                            26              65
+σ_sa4                       870            1625
+σ_sa3                      1028            1518
+σ_sa2                      1601            2326
+σ_spatial                     3              11
+σ                            27              31
+
+Number of divergent transitions: 0
+✓ No divergences detected - excellent!
+
+================================================================================
+SPATIAL RANDOM EFFECTS ANALYSIS
+================================================================================
+
+Top 10 SA1 areas with highest positive spatial effects:
+          sa1_code   sa2_code  spatial_effect_mean  spatial_effect_sd
+30602  21204131240  212041312             0.366393           0.238444
+34915  21701142130  217011421             0.353793           0.230821
+56129  50605113838  506051138             0.351283           0.232566
+28584  21103126327  211031263             0.350704           0.230884
+3888   10703113720  107031137             0.349017           0.228008
+59151  60201104123  602011041             0.344960           0.228779
+45099  31601141430  316011414             0.344938           0.230451
+10628  11703164529  117031645             0.342424           0.225869
+14168  12103141150  121031411             0.328901           0.220805
+50608  40401109517  404011095             0.327373           0.219742
+
+Top 10 SA1 areas with highest negative spatial effects:
+          sa1_code   sa2_code  spatial_effect_mean  spatial_effect_sd
+58014  51003127102  510031271            -0.108964           0.148832
+36072  30202103225  302021032            -0.111914           0.149565
+7915   11303127033  113031270            -0.115076           0.146665
+10894  11801134515  118011345            -0.116907           0.147203
+36163  30203103909  302031039            -0.121532           0.148489
+41545  31001127603  310011276            -0.121570           0.145596
+10259  11703133038  117031330            -0.237955           0.187477
+19861  20101100630  201011006            -0.271242           0.194959
+49322  40204117205  402041172            -0.312626           0.212984
+1043   10201104212  102011042            -0.405068           0.255475
+
+✓ Saved: spatial_effects_sa1.csv
+✓ Plot saved: spatial_effects_distribution.png
+
+================================================================================
+GENERATING SUMMARY REPORT
+================================================================================
+✓ Summary report saved: SUMMARY_REPORT.md
+
+================================================================================
+ANALYSIS COMPLETE!
+================================================================================
+
+All results saved to: bayesian_spatial_results/
+
+Generated files:
+  1. fixed_effects_forest.png - Forest plot of predictor effects
+  2. spatial_autocorrelation.png - Spatial autocorrelation posterior
+  3. variance_decomposition.png - Variance across hierarchy levels
+  4. spatial_effects_sa1.csv - Spatial random effects for each SA1
+  5. spatial_effects_distribution.png - Distribution of spatial effects
+  6. SUMMARY_REPORT.md - Executive summary of findings
+

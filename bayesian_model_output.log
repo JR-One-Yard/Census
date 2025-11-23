@@ -97,3 +97,53 @@ NUTS: [β, σ_sa4, α_sa4, σ_sa3, α_sa3, σ_sa2, α_sa2, σ_spatial, ρ, φ, �
                                                   draws/s                       
                                                                                 
 Sampling 2 chains for 1_000 tune and 2_000 draw iterations (2_000 + 4_000 draws total) took 512 seconds.
+We recommend running at least 4 chains for robust computation of convergence diagnostics
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+
+✓ MCMC sampling completed!
+
+================================================================================
+STEP 6: Generating Predictions with Spatial Spillovers
+================================================================================
+
+Posterior parameter summaries:
+  Spatial autocorrelation (ρ): 0.507
+  SA4 variance (σ_sa4): 0.695
+  SA3 variance (σ_sa3): 0.253
+  SA2 variance (σ_sa2): 0.305
+  Spatial variance (σ_spatial): 0.134
+  Residual variance (σ): 0.533
+
+Fixed effects (β):
+  pct_yr12_complete: 0.161
+  pct_working_age: 0.030
+  employment_rate: 0.449
+
+================================================================================
+STEP 7: Saving Results and Diagnostics
+================================================================================
+
+Saving MCMC trace...
+  ✓ Saved: bayesian_spatial_results/mcmc_trace.nc
+
+Saving model metadata...
+  ✓ Saved: bayesian_spatial_results/model_metadata.json
+
+Saving spatial weights matrix...
+  ✓ Saved: bayesian_spatial_results/spatial_weights.npz
+
+Saving hierarchical structure...
+  ✓ Saved: bayesian_spatial_results/hierarchy.csv
+
+Generating diagnostic plots...
+Traceback (most recent call last):
+  File "/home/user/Census/hierarchical_bayesian_spatial_model.py", line 645, in <module>
+    main()
+  File "/home/user/Census/hierarchical_bayesian_spatial_model.py", line 626, in main
+    output_dir = model.save_results('bayesian_spatial_results')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Census/hierarchical_bayesian_spatial_model.py", line 525, in save_results
+    fig, axes = az.plot_trace(
+    ^^^^^^^^^
+ValueError: too many values to unpack (expected 2)

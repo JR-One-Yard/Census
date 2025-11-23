@@ -522,7 +522,7 @@ class HierarchicalBayesianSpatialModel:
         matplotlib.use('Agg')  # Non-interactive backend
         import matplotlib.pyplot as plt
 
-        fig, axes = az.plot_trace(
+        axes = az.plot_trace(
             self.trace,
             var_names=['β', 'ρ', 'σ_sa4', 'σ_sa3', 'σ_sa2', 'σ_spatial', 'σ'],
             figsize=(15, 10)
@@ -533,7 +533,7 @@ class HierarchicalBayesianSpatialModel:
         print(f"  ✓ Saved: {trace_plot_file}")
 
         # Posterior plots
-        fig, axes = az.plot_posterior(
+        axes = az.plot_posterior(
             self.trace,
             var_names=['β', 'ρ', 'σ_sa4', 'σ_sa3', 'σ_sa2', 'σ_spatial'],
             figsize=(15, 10)
